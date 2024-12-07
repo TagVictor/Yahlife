@@ -1,0 +1,54 @@
+
+            
+            
+                
+                
+@import url('//fonts.googleapis.com/css?family=Handlee:400,700|Braah+One:400,700&display=swap');
+
+            
+            
+            
+            :root {
+                  --bagroundcolor: #101728;
+                  --imgcor: #000000;
+                  --letrascor: #26043c;
+                }        
+
+                body {  
+                  background-color: var(--bagroundcolor);
+                  color: white;
+                }
+                
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate( 25%, -50%);
+                    width: 30%;
+                    min-width: min-content 100%;
+                    border-radius: 20%;
+                    box-shadow: 1px 2px 9px var(--imgcor); 
+                  
+                }
+
+                h1 {
+                   
+                    position: absolute;
+                    top: 30%;
+                    margin-bottom: 0%;
+                    margin-left: 12%;
+                    font-size: 70px;
+                    text-shadow: 1px 3px 6px var(--letrascor); 
+                    
+                    }
+
+                h2 {
+                    position: absolute;
+                    top: 55%;
+                    margin-bottom: 0%;
+                    margin-left: 12%;
+                    font-size: 52px ;
+                    padding-top: 0px;
+                    text-shadow: 1px 3px 6px var(--letrascor); 
+                }    
+                
